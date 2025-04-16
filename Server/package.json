@@ -4,8 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js",
-    "build": "npm install && cd Server && npm install && cd ../Client && npm install && npm run build"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
