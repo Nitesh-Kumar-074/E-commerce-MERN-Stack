@@ -1,8 +1,9 @@
 import express, { urlencoded } from 'express'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
+import path from 'path'
 
-
+const __dirname=path.resolve()
 const app = express()
 app.use(cors({ 
        origin : process.env.CORS_ORIGIN
@@ -35,6 +36,10 @@ app.use('/shopping/product',productRouter)
 import orderRouter from './src/routes/order.routes.js'
 app.use('/shopping/order',orderRouter)
 
+app.use(express.static(path.join(__dirname, '../Client/dist')))
+app.get('*', (req, res)=>{
+       res.sendFile(path.join(__dirname, 'Client', 'dist', 'index.html'))
+})
 
 app.get("/",(req,res) => {
        res.status(200).json("Welcome to backend you won't get anything here...")
