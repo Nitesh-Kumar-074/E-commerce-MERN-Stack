@@ -1,15 +1,15 @@
 const MainCarouselData = [
        {
-              image : "src/components/Carousel/8338565.jpg"
+              image : "https://static.vecteezy.com/system/resources/thumbnails/048/912/287/small/excited-girl-open-up-shopping-bags-and-gasping-amazed-checking-out-gifts-for-her-with-happy-face-standing-against-pink-background-photo.jpg"
        },
        {
-              image : "src/components/Carousel/8931691.jpg"
+              image : "https://www.mohifashion.com/cdn/shop/articles/Mohi_Bridal_Banner_3.jpg?v=1716554794"
        },
        {
-              image : "src/components/Carousel/purchase-sale-discount-fashion-style.jpg"
+              image : "https://static.vecteezy.com/system/resources/thumbnails/047/965/074/small/happy-man-looking-surprised-at-shopping-bags-buying-souvenirs-on-vacation-standing-over-yellow-background-photo.jpg"
        },
        {
-              image : "src/components/Carousel/travel-concept-close-up-portrait-young-beautiful-attractive-ginger-red-hair-girl-with-trendy-hat.jpg"
+              image : "https://www.shutterstock.com/image-photo/mockup-white-black-heather-tshirt-260nw-2319467405.jpg"
        }
 ]
 
